@@ -29,7 +29,7 @@ def anglefinder(C,A=50,B=50):
 
 def anglecorrector(y,angle,maxangle=90,range=400):
     if y<0:
-        y==y*-1
+        y=y*-1
     return((y/range)*maxangle)+angle
 
 

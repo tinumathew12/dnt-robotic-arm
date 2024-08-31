@@ -8,7 +8,7 @@ import math
 cap = cv2.VideoCapture(0)
 
 mpHands = mp.solutions.hands
-hands = mpHands.Hands()
+hands = mpHands.Hands(max_num_hands= 1, min_detection_confidence= 0.5, min_tracking_confidence= 0.5)
 mpDraw = mp.solutions.drawing_utils
 
 pTime = 0

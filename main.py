@@ -28,8 +28,8 @@ def anglefinder(C,A=50,B=50):
     #return A,B,C,cos_a
 
 def anglecorrector(y,angle,maxangle=90,range=400):
-    if y<0:
-        y=y*-1
+    #if y<0:
+        #y=y*-1
     return((y/range)*maxangle)+angle
 
 
